@@ -1,4 +1,4 @@
-function integerToString(integer) {
+function integerToFizzBuzzString(integer) {
   stringArray = [];
   for (let int = 1; int <= integer; int++) {
     if (isFizzBuzz(int)) {
@@ -26,4 +26,7 @@ function isBuzz(number) {
   return number % 5 == 0 ? true : false;
 }
 
-module.exports = { integerToString };
+console.log(`"${integerToFizzBuzzString(3)}"`);
+console.log(`"${integerToFizzBuzzString(5)}"`);
+console.log(`"${integerToFizzBuzzString(15)}"`);
+module.exports = { integerToFizzBuzzString };
