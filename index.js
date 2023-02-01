@@ -1,17 +1,17 @@
 function integerToFizzBuzzString(integer) {
-  stringArray = [];
+  outputArray = [];
   for (let int = 1; int <= integer; int++) {
     if (isFizzBuzz(int)) {
-      stringArray.push("FizzBuzz");
+      outputArray.push("FizzBuzz");
     } else if (isFizz(int)) {
-      stringArray.push("Fizz");
+      outputArray.push("Fizz");
     } else if (isBuzz(int)) {
-      stringArray.push("Buzz");
+      outputArray.push("Buzz");
     } else {
-      stringArray.push(int);
+      outputArray.push(int);
     }
   }
-  return stringArray.join(", ");
+  return outputArray.join(", ");
 }
 
 function isFizzBuzz(number) {
