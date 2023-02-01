@@ -26,4 +26,8 @@ function isBuzz(number) {
   return number % 5 == 0 ? true : false;
 }
 
+console.log(`"${integerToFizzBuzzString(3)}"`);
+console.log(`"${integerToFizzBuzzString(5)}"`);
+console.log(`"${integerToFizzBuzzString(15)}"`);
+
 module.exports = { integerToFizzBuzzString };
