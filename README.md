@@ -20,6 +20,11 @@ git clone git@github.com:soso-ogan/integerToFizzBuzzString.git
 cd integerToFizzBuzzString
 npm install
 ```
+## Running code from the command line 
+
+```
+node index.js
+```
 
 ## Running the tests
 
